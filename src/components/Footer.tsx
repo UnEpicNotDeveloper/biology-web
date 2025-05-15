@@ -1,8 +1,19 @@
 import React from 'react';
 import Link from 'next/link';
 
-export default function Footer() {
+export default function Footer({children} : {children: React.ReactNode;}) {
   return (
-    <p className="text-[40px]">footer</p>
+    <footer className="">
+      <div className="flex gap-x-[52px] justify-center">  
+        <p>Last edited: <code>{children}</code></p>
+        <Link 
+          href="/test2"
+          className="hover:text-hover"
+        >
+          Index of all terms <code className="font-family 'JetBrains Mono' text-bold">{'->'}</code>
+        </Link>
+      </div>
+      <div className="flex justify-center">Created by <code>Jason Brick</code>, <code>Joshua Haupt</code>, and <code>Daniel Mace</code></div>
+    </footer>
   );
 }

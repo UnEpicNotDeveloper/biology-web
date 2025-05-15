@@ -3,13 +3,13 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <div className="flex justify-center align-center">
-      <div className="grid h-[40px] w-[600px] grid-cols-4 border text-center">
-        <Link href="/" className="border h-[40px] content-center hover:text-hover">Web</Link>
-        <Link href="/test2" className="border h-[40px] content-center hover:text-hover">Flashcards</Link>
-        <Link href="/test2" className="border h-[40px] content-center hover:text-hover">Study Questions</Link>
-        <Link href="/test2" className="border h-[40px] content-center hover:text-hover">Index</Link>
+    <header className="flex items-center flex-nowrap text-[22px]">
+      <Link href="/" className="hover:text-hover font-normal text-[28px] font-['Roboto'] tracking-[-1px]">Biology Web</Link>
+      <div className="flex gap-[24px]">
+        <Link href="/test2" className="hover:text-hover">Flashcards</Link>
+        <Link href="/test2" className="hover:text-hover">Study Questions</Link>
+        <Link href="/word" className="hover:text-hover">Saved Terms</Link>
       </div>
-    </div>
+    </header>
   );
 }
