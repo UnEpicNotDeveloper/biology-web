@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Layout from "../components/Layout";
+import Footer from "../components/Footer";
 
 export default function test() {
   return (
@@ -14,6 +15,9 @@ export default function test() {
         </Link>
         <p>TEST PAGE TWO!!!!!!!!!!!!!!!!!</p>
       </Layout>
+      <Footer>
+        {new Date().toLocaleDateString()}
+      </Footer>
     </div>
   );
 }
