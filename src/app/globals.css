@@ -39,11 +39,11 @@ footer {
   border-color: oklch(37.3% 0.034 259);
   color: oklch(55.1% 0.027 264.364);
   white-space: pre;
+  flex-wrap: wrap;
 }
 
 header {
-  min-height: 40px;
-  min-width: 600px;
+  min-width: 700px;
   background: #202020;
   justify-content: space-between;
   padding: 10px 20px 10px;

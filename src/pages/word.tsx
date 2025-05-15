@@ -4,10 +4,12 @@ import Image from "next/image";
 import Link from 'next/link';
 import Layout from '../components/Layout'
 import Footer from '../components/Footer'
+import Navbar from "../components/Navbar";
 
 export default function Word() {
   return (
     <div className="min-h-screen bg-zinc-800 text-gray-100 font-sans">
+      <Navbar />
       <Layout>
 
         {/* Title bar */}
