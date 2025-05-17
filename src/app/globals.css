@@ -20,9 +20,8 @@
 }
 
 body {
-  background: var(--background);
+  background: oklch(27.4% 0.006 286.033);
   color: var(--foreground);
-  font-family: 'Franklin Gothic', 'Inter', sans-serif;
 }
 
 footer {

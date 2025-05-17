@@ -1,17 +1,13 @@
-// app/second/page.tsx
 import React from 'react';
 import Image from "next/image";
 import Link from 'next/link';
-import Layout from '../components/Layout'
-import Footer from '../components/Footer'
-import Navbar from "../components/Navbar";
+import Footer from '../../../../page_components/Footer'
+import Navbar from "../../../../page_components/Navbar";
 
-export default function Word() {
+export default function Page() {
   return (
     <div className="min-h-screen bg-zinc-800 text-gray-100 font-sans">
       <Navbar />
-      <Layout>
-
         {/* Title bar */}
         <div className="mb-6 pb-2 border-b border-gray-700">
           <h1 className="text-3xl font-bold">
@@ -38,11 +34,10 @@ export default function Word() {
             <li> [ ] Style like Obsidian</li>
           </ul>
         </article>
-      </Layout>
 
       {/* Footer bar */}
       <Footer>
-        {new Date().toLocaleDateString()}
+        {new Date("2009/09/11").toLocaleDateString()}
       </Footer>
     </div>
   );

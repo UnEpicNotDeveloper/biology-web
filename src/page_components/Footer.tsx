@@ -7,15 +7,15 @@ export default function Footer({children} : {children: React.ReactNode;}) {
       <div className="flex gap-x-[52px] justify-center">  
         <p>Last edited: <code>{children}</code></p>
         <Link 
-          href="/test2"
+          href="/elements/index"
           className="hover:text-hover"
         >
           Index of all terms <code className="text-bold">{'->'}</code>
         </Link>
       </div>
-      
+
       <div 
-        className="flex justify-center"
+        className="flex justify-center place-items-baseline"
       >
         Created by <code>Jason Brick</code>, <code>Joshua Haupt</code>, and <code>Daniel Mace</code>
       </div>
