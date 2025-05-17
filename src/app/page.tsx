@@ -2,17 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import Footer from "../page_components/Footer";
 import Navbar from "../page_components/Navbar";
-import Section from "../page_components/Section";
-import {Title, Note, Flashcard, Study} from "../page_components/Information";
+import {Title, Note, Flashcard, Study} from "../page_components/Styles";
 
-export default function Home() {
+export default function Web() {
+  let term: string = "Ribosomes";
   return (
     <div>
       <Navbar />
-      <Section selectedTerm="ribosomes">
-        <Title />
-        <Note />
-      </Section>
+      <Link href="/elements/ribosomes/note">go to page</Link>
       <Footer>
         {new Date("2025/5/16").toLocaleDateString()}
       </Footer>
