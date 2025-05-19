@@ -3,7 +3,7 @@ import {Header, Definition, Connections, NoteLocations, FlashcardLocations, Stud
 
 export function Title({children}: {children: string}) {
   return (
-    <div className="px-[40px] pt-[20px] min-page-100%">
+    <div className="px-[40px] pt-[20px]">
       <main className="mb-6 pb-2 border-b border-gray-700 text-5xl font-bold">
         <Header>{children}</Header>
       </main>

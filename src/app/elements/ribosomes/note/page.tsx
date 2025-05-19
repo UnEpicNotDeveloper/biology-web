@@ -7,7 +7,7 @@ import {term} from "../term";
 
 export default function Web() {
   return (
-    <div>
+    <div className="min-h-screen">
       <Navbar />
       <Title>{term}</Title>
       <Note>{term}</Note>
