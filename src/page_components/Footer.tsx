@@ -6,12 +6,7 @@ export default function Footer({children} : {children: React.ReactNode;}) {
     <footer>
       <div className="flex gap-x-[52px] justify-center">  
         <p>Last edited: <code>{children}</code></p>
-        <Link 
-          href="/elements/index"
-          className="hover:text-hover"
-        >
-          Index of all terms <code className="text-bold">{'->'}</code>
-        </Link>
+        <Link href="/elements/index"> Index of all terms <code className="text-bold">{'->'}</code></Link>
       </div>
 
       <div 

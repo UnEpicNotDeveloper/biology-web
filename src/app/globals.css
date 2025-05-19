@@ -22,6 +22,7 @@
 body {
   background: oklch(27.4% 0.006 286.033);
   color: var(--foreground);
+  min-height: 100vh;
 }
 
 footer {
@@ -42,7 +43,7 @@ footer {
 }
 
 header {
-  min-width: 700px;
+  min-width: 800px;
   background: #202020;
   justify-content: space-between;
   padding: 10px 20px 10px;
@@ -56,4 +57,8 @@ code {
   font-family: 'JetBrains Mono', monospace;
   font-size: 14px;
   vertical-align: baseline;
+}
+
+a:hover {
+  color: var(--color-hover);
 }

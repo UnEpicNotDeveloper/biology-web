@@ -1,1 +1,1 @@
-export const term = "ribosomes"
+export const term = "Ribosomes"
