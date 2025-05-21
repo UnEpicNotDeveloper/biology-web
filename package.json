@@ -10,7 +10,10 @@
 		"postcss": "^8.5.3",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
-		"tailwindcss": "^4.1.6"
+		"react-hooks-global-state": "^2.1.0",
+		"react-zoom-pan-pinch": "^3.7.0",
+		"tailwindcss": "^4.1.6",
+		"zustand": "^5.0.4"
 	},
 	"devDependencies": {
 		"@types/node": "^22.13.4",

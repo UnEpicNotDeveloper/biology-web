@@ -1,18 +1,26 @@
-import Image from "next/image";
-import Link from "next/link";
-import Footer from "../page_components/Footer";
-import Navbar from "../page_components/Navbar";
-import {Title, Note, Flashcard, Study} from "../page_components/Styles";
+'use client'
+import { create } from 'zustand'
+import { persist, createJSONStorage } from 'zustand/middleware'
+import { pageState } from "../store/pageState"
+import Link from "next/link"
 
-export default function Web() {
-  let term: string = "Ribosomes";
+import React from 'react';
+
+//import { pageState } from "../store/pageState"
+import type { StoreState } from "../store/pageState"
+
+export default function Page() {
+  const term = pageState().term;
+  const setTerm = pageState((state) => state.setTerm);
+
   return (
     <div>
-      <Navbar />
-      <Link href="/elements/ribosomes/note">go to page</Link>
-      <Footer>
-        {new Date("2025/5/16").toLocaleDateString()}
-      </Footer>
+      <Link
+        href="/note"
+        onClick={() => setTerm("Abiotic Synthesis")}
+      >
+        {term} Abiotic Symthesis
+      </Link>
     </div>
   );
 }

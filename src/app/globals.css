@@ -58,7 +58,6 @@ header {
   padding: 10px 20px 10px;
   font-family: 'Inter', sans-serif;
   font-size: 22px;
-  font-weight: 700;
   vertical-align: baseline;
 }
 
@@ -69,5 +68,9 @@ code {
 }
 
 a:hover {
+  color: var(--color-hover);
+}
+
+button:hover {
   color: var(--color-hover);
 }
