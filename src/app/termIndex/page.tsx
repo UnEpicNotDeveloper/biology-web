@@ -1,3 +1,4 @@
+'use client'
 import Navbar from "../../page-components/Navbar"
 import Definition from "../../data/Definition"
 import Location from "../../data/Location"
