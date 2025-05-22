@@ -26,6 +26,12 @@ importers:
       react-hooks-global-state:
         specifier: ^2.1.0
         version: 2.1.0(react@19.0.0)
+      react-image-hotspots:
+        specifier: ^2.2.5
+        version: 2.2.5(react@19.0.0)
+      react-img-mapper:
+        specifier: ^2.0.0
+        version: 2.0.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react-zoom-pan-pinch:
         specifier: ^3.7.0
         version: 3.7.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -520,10 +526,25 @@ packages:
     peerDependencies:
       react: ^19.0.0
 
+  react-fast-compare@3.2.2:
+    resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
+
   react-hooks-global-state@2.1.0:
     resolution: {integrity: sha512-tLSRhB5pD3QiNsGOo893m8lVZXDuIkdin8PKKmGqnJniAaD/tzl3BdAkba1vOv1/q1bpuN+9zrqqAHkRJhXzJw==}
     peerDependencies:
       react: '>=16.8.0'
+
+  react-image-hotspots@2.2.5:
+    resolution: {integrity: sha512-mQKaX3ZCsdd3g4apSSsPFTg8nE+n4xJXha+k156h/Wktk9wcblVkqzTYCw7WwCVGVRpxOv3mjcXWVPonbdsqcg==}
+    peerDependencies:
+      react: ^18.2.0
+
+  react-img-mapper@2.0.0:
+    resolution: {integrity: sha512-AkH8fCdbSq6TMGMrSKIRHUPXDckWqNQEQD0umsFbnWAr7MmjyLoQMdGDqKpzzNpF2hydVkjsz1rXZ/jqw7pLUg==}
+    engines: {node: '>=16', npm: '>=8', pnpm: '>=8', yarn: '>=1.22'}
+    peerDependencies:
+      react: 16.x || 17.x || 18.x || 19.x
+      react-dom: 16.x || 17.x || 18.x || 19.x
 
   react-zoom-pan-pinch@3.7.0:
     resolution: {integrity: sha512-UmReVZ0TxlKzxSbYiAj+LeGRW8s8LraAFTXRAxzMYnNRgGPsxCudwZKVkjvGmjtx7SW/hZamt69NUmGf4xrkXA==}
@@ -1010,12 +1031,24 @@ snapshots:
       react: 19.0.0
       scheduler: 0.25.0
 
+  react-fast-compare@3.2.2: {}
+
   react-hooks-global-state@2.1.0(react@19.0.0):
     dependencies:
       react: 19.0.0
       zustand: 4.0.0(react@19.0.0)
     transitivePeerDependencies:
       - immer
+
+  react-image-hotspots@2.2.5(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+
+  react-img-mapper@2.0.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+    dependencies:
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      react-fast-compare: 3.2.2
 
   react-zoom-pan-pinch@3.7.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
