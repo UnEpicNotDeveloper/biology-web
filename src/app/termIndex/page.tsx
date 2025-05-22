@@ -2,7 +2,7 @@ import Navbar from "../../page-components/Navbar"
 import Definition from "../../data/Definition"
 import Location from "../../data/Location"
 
-export default function Index() {
+export default function termIndex() {
   return (
     <div>
       <Navbar />
