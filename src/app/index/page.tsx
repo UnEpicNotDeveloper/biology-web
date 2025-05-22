@@ -7,7 +7,7 @@ export default function Index() {
     <div>
       <Navbar />
       <div className="px-[40px] pt-[20px] text-lg justify-left w-11/12 flex flex-col">
-        <div className="flex"><div className="flex"><Location>Abiotic Synthesis</Location><div>:</div></div><Definition>Abiotic Synthesis</Definition></div>
+        <div className="flex gap-[20px]"><div className="flex"><Location>Abiotic Synthesis</Location><div>:</div></div><Definition>Abiotic Synthesis</Definition></div>
         <div className="flex gap-[20px]"><div className="flex"><Location>Abiotic</Location><div>:</div></div><Definition>Abiotic</Definition></div>
         <div className="flex gap-[20px]"><div className="flex"><Location>Actin</Location><div>:</div></div><Definition>Actin</Definition></div>
         <div className="flex gap-[20px]"><div className="flex"><Location>Activator</Location><div>:</div></div><Definition>Activator</Definition></div>
