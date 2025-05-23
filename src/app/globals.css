@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --color-hover: #c2b2cc;
+  --color-hover: #a889bb;
 }
 
 @theme inline {
@@ -43,11 +43,8 @@ footer {
   color: oklch(55.1% 0.027 264.364);
   white-space: pre;
   flex-wrap: wrap;
-  place-self: end;
 
   position:absolute;
-  top:100vh;
-  transform:translateY(-100%);
   width:100%;
 }
 
@@ -70,6 +67,7 @@ code {
 a {
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
+  color: #c2b2cc
 }
 
 a:hover {

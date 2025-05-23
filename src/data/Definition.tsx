@@ -129,7 +129,7 @@ export default function Definition({children}: {children: string}) {
     case "Cyotkinesis": 
       return (<div>The process of cytoplasmic division that results in two separate <Link className="underline" href="/note" onClick={()=>setTerm("Daughter Cell")}>daughter cell</Link>.</div>);
     case "Cytoplasm": 
-      return (<div>The process of cytoplasmic division that results in two separate <Link className="underline" href="/note" onClick={()=>setTerm("Daughter Cell")}>daughter cell</Link>.</div>);
+      return (<div>The contents of the cell enclosed by the <Link className="underline" href="/note" onClick={()=>setTerm("Plasma Membrane")}>plasma membrane</Link>. In Eukaryotic Cells: only the region between the nucleus and the <Link className="underline" href="/note" onClick={()=>setTerm("Plasma Membrane")}>plasma membrane</Link>.</div>);
     case "Cytoplasmic Determinant": 
       return (<div>A molecule in the egg that influences cell differentiation in early development.</div>);
     case "Cytoskeleton": 
@@ -377,7 +377,7 @@ export default function Definition({children}: {children: string}) {
     case "Missense Mutation": 
       return (<div>A <Link className="underline" href="/note" onClick={()=>setTerm("Mutation")}>mutation</Link> that changes one amino acid in a protein.</div>);
     case "Mitochondria": 
-      return (<div>An <Link className="underline" href="/note" onClick={()=>setTerm("Organelle")}>organelle</Link> found in <Link className="underline" href="/note" onClick={()=>setTerm("Eukaryotes")}>Eukaryotes</Link> that serves as the site of cellular respiration; uses oxygen to break down organic molecules and synthesize <Link className="underline" href="/note" onClick={()=>setTerm("Atp")}>ATP</Link>.</div>);
+      return (<div>An <Link className="underline" href="/note" onClick={()=>setTerm("Organelle")}>organelle</Link> found in <Link className="underline" href="/note" onClick={()=>setTerm("Eukaryotes")}>Eukaryotes</Link> that serves as the site of cellular respiration; uses oxygen to break down organic molecules and synthesize <Link className="underline" href="/note" onClick={()=>setTerm("ATP")}>ATP</Link>.</div>);
     case "Mitochondrial Matrix": 
       return (<div>The compartment of the <Link className="underline" href="/note" onClick={()=>setTerm("Mitochondria")}>mitochondria</Link> enclosed by the inner membrane and containing enzymes, <Link className="underline" href="/note" onClick={()=>setTerm("Ribosome")}>Ribosomes</Link>, and DNA.</div>);
     case "Mitosis": 
