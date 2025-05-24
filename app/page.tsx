@@ -1790,7 +1790,7 @@ export default function Page() {
       >
         <TransformComponent wrapperStyle={{ width: "100%", height: "100%" }}>
           <div style={{ position: "relative", width: imageWidth, height: imageHeight }}>
-            <img src="https://github.com/UnEpicNotDeveloper/biology-web/blob/main/public/pib.png" alt="Biology Map" style={{ width: imageWidth, height: imageHeight }}/>
+            <img src="./pib.png" alt="Biology Map" style={{ width: imageWidth, height: imageHeight }}/>
             {hotspots.map((spot) => (
               <a href="/note" key={spot.id}>
                 <button
