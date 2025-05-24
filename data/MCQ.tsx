@@ -1,4 +1,4 @@
-/*import React, { useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
 const questionData = {
@@ -1029,16 +1029,45 @@ export default function MCQ({children}: {children: string}) {
         return (
           <div key={q.id} style={{marginBottom: "2em"}}>
             <div><strong>{q.question}</strong></div>
+            {/* Test every way to import the images */}
             {q.image && (
               <>
-                <br />
-                <Image
-                  src={require(`../public${q.image}`)}
-                  alt=""
-                  style={{ maxWidth: "100%", height: "auto" }}
-                  width={600}
-                  height={400}
-                />
+                {/* 2. require with absolute path (should fail in Next.js) */}
+                {/* <div>
+                  <span style={{fontWeight: 600}}>require absolute:</span>
+                  <Image
+                    src={require(`c:/Users/joshu/Documents/code/biology-web/public${q.image}`)}
+                    alt=""
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    width={600}
+                    height={400}
+                  />
+                </div> */}
+                {/* 3. import as static import (not possible dynamically here, but shown for reference) */}
+                {/* import imgSrc from '../public/MCQ/2.2.1.png'; */}
+                {/* <Image src={imgSrc} alt="" width={600} height={400} /> */}
+                {/* 4. direct string path (should only work for public/ but not with next/image) */}
+                <div>
+                  <span style={{fontWeight: 600}}>direct string:</span>
+                  <img
+                    src={q.image}
+                    alt=""
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    width={600}
+                    height={400}
+                  />
+                </div>
+                {/* 5. next/image with string path (will not work for public/ unless using 'public' folder as root) */}
+                {/* <div>
+                  <span style={{fontWeight: 600}}>next/image string:</span>
+                  <Image
+                    src={q.image}
+                    alt=""
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    width={600}
+                    height={400}
+                  />
+                </div> */}
               </>
             )}
             <ul>
@@ -1072,9 +1101,4 @@ export default function MCQ({children}: {children: string}) {
       })}
     </div>
   );
-}
-*/
-
-export default function MCQ({children}: {children: string}) {
-  return "stuff";
 }
