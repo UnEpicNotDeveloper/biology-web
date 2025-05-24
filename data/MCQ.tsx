@@ -63,7 +63,7 @@ const questionData = {
       {
         id: '2.2.1',
         question: "Researchers conducted an experiment to investigate the effects of a valinomycin treatment on skeletal muscle cells. Valinomycin is a naturally occurring substance that can be used as a drug. The results of the experiment are presented in the table. Which of the following claims about the effects of the valinomycin treatment is best supported by the data presented in the table",
-        image: "../public/MCQ/2.2.1.png", 
+        image: require("../public/MCQ/2.2.1.png"), 
         options: ["A. The valinomycin treatment caused an increase in the activity of the rough endoplasmic reticulum.", 
                     "B. The valinomycin treatment caused an increase in the activity of the Golgi complex.", 
                     "C. The valinomycin treatment caused a decrease in the activity of the lysosome.", 
@@ -74,7 +74,7 @@ const questionData = {
       {
          id: '2.2.2',
          question: "Which of the following characteristics distinguishes a protocell from other non living structures?",
-         image: "../public/MCQ/2.2.2.png", 
+         image: require("../public/MCQ/2.2.2.png"), 
          options: ["A. Ability to perform binary fission", 
                     "B. Possession of membrane-bound nucleus", 
                     "C. Maintenance of an internal chemical environment different from its surroundings", 
@@ -139,7 +139,7 @@ const questionData = {
       {
         id: '2.3.1',
         question: " Some cells, such as intestinal cells, exchange a lot of material with their surroundings. The surface-to-volume ratio of these cells affects the efficiency of material exchange. Which cell has the highest surface area to volume ratio? The table provides measurements of four different eukaryotic cells.",
-        image: "../public/MCQ/2.3.1.png",
+        image: require("../public/MCQ/2.3.1.png"),
         options: ["A. Cell 1", 
                     "B. Cell 2", 
                     "C. Cell 3", 
@@ -184,7 +184,7 @@ const questionData = {
       {
         id: '2.4.1',
         question: "Figure 1. Testosterone movement across the cellular membrane. Testosterone is a small steroid hormone that is important in cell signaling. Which of the following describes where testosterone enters a cell and why it is able to cross at that point?",
-        image: "../public/MCQ/2.4.1.png",
+        image: require("../public/MCQ/2.4.1.png"),
         options: ["A. 1, testosterone is nonpolar and can diffuse through the membrane.", 
                     "B. 2, testosterone covalently binds to a surface protein and transports into the cell.", 
                     "C. 3, testosterone dissolves in water and flows through the channel.", 
@@ -195,7 +195,7 @@ const questionData = {
       {
         id: '2.4.2',
         question: "The figure shows a representation of a protein embedded in a cell membrane. The numbers indicate different structural regions of the protein. Based on the figure, which of the following statements best describes the relationship between regions 1 and 2 of the protein?",
-        image: "../public/MCQ/2.4.2.png",
+        image: require("../public/MCQ/2.4.2.png"),
         options: ["A. Region 1 is hydrophilic because it interacts with the interior of the membrane, whereas region 2 is hydrophobic because it interacts with an aqueous environment.", 
                     "B. Region 1 is hydrophilic because it interacts with an aqueous environment, whereas region 2 is hydrophobic because it interacts with the interior of the membrane.", 
                     "C. Region 1 is hydrophobic because it interacts with the interior of the membrane, whereas region 2 is hydrophilic because it interacts with an aqueous environment. ", 
@@ -206,7 +206,7 @@ const questionData = {
       {
         id: '2.4.3',
         question: "Which of the following best describes the numbered areas?",
-        image: "../public/MCQ/2.4.3.png",
+        image: require("../public/MCQ/2.4.3.png"),
         options: ["A. Areas 1 and 3 are polar, since the membrane molecules are aligned with water molecules.", 
                     "B. Area 2 is polar, since water has been excluded from this area of the membrane.  ", 
                     "C. Areas 1 and 3 are hydrophilic, since membrane molecules formed covalent bonds with water.", 
@@ -251,7 +251,7 @@ const questionData = {
       {
         id: '2.5.1',
         question: "Intravenous (IV) therapy is used for fluid replacement in instances of dehydration in humans and other animals. One type of IV fluid is essentially a saltwater solution. To determine the best concentration for therapy in people, a team of students is researching the effects of solutions of different salt concentrations on red blood cells. The following observations were made from three different red blood cell samples viewed under a microscope. The figure presents three blood cells. The left cell is swollen, the middle cell is of normal disc shape, and the right cell is shrunken and irregular. 1. 0.3% Saline (Cells swell) 2. 0.9% Saline (Cells unchanged) 3. 1.5% Saline (Cells shrink).    The team wants to extend the research project. What should the team of students do next to obtain data that are more conclusive?  ",
-        image: "../public/MCQ/2.5.1.png",
+        image: require("../public/MCQ/2.5.1.png"),
         options: ["A. Repeat the process with other salt concentrations. ", 
                     "B. Develop a model to explain why the cells react differently to different salt concentrations. ", 
                     "C. Repeat the process using red blood cells from other animals.  ", 
@@ -282,7 +282,7 @@ const questionData = {
       {
         id: '2.5.4',
         question: "An investigator wants to understand whether a newly found membrane protein is involved in membrane transport of a certain particle. Which investigation will help determine whether the new membrane protein is a channel protein involved in membrane transport?  Figure 1. A section of a cell’s plasma membrane, showing a channel protein and a concentration gradient across the membrane ",
-        image: "../public/MCQ/2.5.4.png",
+        image: require("../public/MCQ/2.5.4.png"),
         options: ["A. Add small nonpolar molecules to the extracellular space and measure the direction of particle movement of the molecules.  ", 
                     "B. Measure the rate of extracellular fluid movement into the intracellular space.", 
                     "C. Add more of the proteins to the plasma membrane and measure the rate of the particle movement.", 
@@ -313,7 +313,7 @@ const questionData = {
       {
         id: '2.5.7',
         question: " Some membrane proteins help maintain the concentrations of ions inside a cell by transporting the ions across the cell\'s plasma membrane. Other membrane proteins form pores in the plasma membrane through which the ions can diffuse. A model showing the influence of membrane proteins on the movement of sodium (\(Na^+\)) and potassium (\(K^+\)) ions across a plasma membrane is presented in Figure 1. ",
-        image: "../public/MCQ/2.5.7.png",
+        image: require("../public/MCQ/2.5.7.png"),
         options: ["A. The \(Na^+\) concentration outside the cell will increase", 
                     "B. The \(Na^+\) concentration inside the cell will increase.  ", 
                     "C. The \(K^+\) concentration inside the cell will increase.", 
@@ -324,7 +324,7 @@ const questionData = {
       {
         id: '2.5.8',
         question: "The illustration shows the active transport of hydrogen ions through a membrane protein. Which of the following best predicts the effect of not having ATP available to supply energy to this process?",
-        image: "../public/MCQ/2.5.8.png",
+        image: require("../public/MCQ/2.5.8.png"),
         options: ["A.  H+ ions will stop moving through the protein.", 
                     "B. H+ ions will move in the other direction through the protein.  ", 
                     "C.  H+ ions will continue to move through the protein in the original direction but at a slower rate. ", 
@@ -501,7 +501,7 @@ const questionData = {
       {
         id: '4.2.4',
         question: "The epinephrine signaling pathway plays a role in regulating glucose homeostasis in muscle cells. The signaling pathway is activated by the binding of epinephrine to the beta-2 adrenergic receptor. A simplified model of the epinephrine signaling pathway is represented in Figure 1. Figure 1. A simplified model of the epinephrine signaling pathway in muscle cells. Based on Figure 1, which of the following statements best describes the epinephrine signaling pathway?  ",
-        image: "../public/MCQ/4.2.4.png",
+        image: require("../public/MCQ/4.2.4.png"),
         options: ["A. It involves the opening and closing of ion channels", 
                     "B. In involves enzymes activating other enzymes ", 
                     "C. It involves changes in the expression of target genes", 
@@ -516,7 +516,7 @@ const questionData = {
       {
         id: '4.3.1',
         question: "Phosphofructokinase (PFK) is a key enzyme in glycolysis. ATP is one of the two substrates for the reaction catalyzed by PFK. ATP is also an allosteric regulator of PFK. Figure 1 shows the enzyme-substrate interactions of PFK Figure 1. The enzyme-substrate interactions of PFK. A researcher found a mutation that resulted in the PFK enzyme being unable to bind ATP to the allosteric site. Which of the following best predicts the effect of the mutation?   ",
-        inage: "../public/MCQ/4.3.1.png",
+        inage: require("../public/MCQ/4.3.1.png"),
         options: ["A. The activity of the enzyme will not be affected because the active site is not involved in substrate binding at the allosteric site", 
                     "B. Negative feedback regulation does not occur, so the enzyme will be active when glycolysis is not needed", 
                     "C. Positive feedback does not occur, and the activity of the enzyme will decrease when glycolysis is needed", 
@@ -527,7 +527,7 @@ const questionData = {
       {
         id: '4.3.2',
         question: "A person’s blood glucose level fluctuates during the day, as represented in Figure 1. Two hormones, insulin and glucagon, are directly involved in regulating the blood glucose level to maintain a healthy level. Insulin acts to lower the blood glucose level, and glucagon acts to increase the blood glucose level. Figure 1. Blood glucose fluctuations of an individual. Which of the following best predicts what will happen to the blood glucose level if the person has another meal at 5 p.m.?  ",
-        image: "../public/MCQ/4.3.2.png",
+        image: require("../public/MCQ/4.3.2.png"),
         options: ["A. Immediately after the meal, the blood glucose level will decrease because of the increase in glucagon levels  ", 
                     "B. Immediately after the meal, the blood glucose level will increase, and then insulin will be secreted to counter the increase", 
                     "C. Several hours after the meal, the blood glucose level will increase sharply because of an increase in the amount of glucagon secreted", 
@@ -538,7 +538,7 @@ const questionData = {
       {
         id: '4.3.3',
         question: "Blood clots are formed by a positive feedback loop. Two pathways exist, the extrinsic and intrinsic pathways, which converge during clot formation. There are many clotting factors involved, most of which are proteins. Vitamin K is required for the formation of the active form of several of the clotting factors, including Factor X. A simplified model of the blood clotting process is shown in Figure 1. Warfarin is a drug used to treat certain blood clots. Warfarin blocks the formation of the active form of vitamin K-dependent clotting factors. Based on the model, which of the following best predicts the effects of warfarin on a patient?   ",
-        image: "../public/MCQ/4.3.3.png",
+        image: require("../public/MCQ/4.3.3.png"),
         options: ["A. Fibrinogen will form fibrin, but the clot will not form because Factor XIII will not be synthesized", 
                     "B. The intrinsic pathway will take over because the clotting factors are part of that pathway", 
                     "C.Thrombin will be converted to prothrombin because Factor X will reverse the reaction", 
@@ -549,7 +549,7 @@ const questionData = {
       {
         id: '4.3.4',
         question: "The epinephrine signaling pathway plays a role in regulating glucose homeostasis in muscle cells. The signaling pathway is activated by the binding of epinephrine to the beta-2 adrenergic receptor. A simplified model of the epinephrine signaling pathway is represented in Figure 1. Figure 1. A simplified model of the epinephrine signaling pathway in muscle cells Cyclic AMP phosphodiesterase is an enzyme that catalyzes the conversion of cyclic AMP to a different molecule. Which of the following best predicts the effect of inhibiting cyclic AMP phosphodiesterase in a muscle cell stimulated by epinephrine? ",
-        image: "../public/MCQ/4.3.4.png",
+        image: require("../public/MCQ/4.3.4.png"),
         options: ["A. The concentration of cyclic AMP will decrease because adenylyl cyclase will no longer be activated", 
                     "B. The G protein will diffuse out of the cell because it will no longer bind to the plasma membrane  ", 
                     "C. Phosphorylase kinase will remain active because protein kinase A will no longer be deactivated", 
