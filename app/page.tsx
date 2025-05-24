@@ -5,6 +5,7 @@ import React from 'react';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 import ImageHotspots from "react-image-hotspots";
 import Navbar from "../page-components/Navbar"
+import Image from "next/image"
 
 
 export default function Page() {
@@ -1789,7 +1790,7 @@ export default function Page() {
       >
         <TransformComponent wrapperStyle={{ width: "100%", height: "100%" }}>
           <div style={{ position: "relative", width: imageWidth, height: imageHeight }}>
-            <img src="/pib.png" alt="Biology Map" style={{ width: imageWidth, height: imageHeight }}/>
+            <Image src="/pib.png" alt="Biology Map" style={{ width: imageWidth, height: imageHeight }}/>
             {hotspots.map((spot) => (
               <a href="/note">
                 <button
