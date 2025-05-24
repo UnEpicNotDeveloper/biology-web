@@ -734,12 +734,14 @@ const questionData = {
       {
         id: '6.2.4',
         question: "N-15, also known as heavy nitrogen, is an isotope of nitrogen that is heavier than the isotope that is typically found in nature, N-14. Conducting chemical reactions in the presence of different isotopes of nitrogen allow a scientist to follow nitrogen atoms in a metabolic pathway. In a classic experiment, Meselson and Stahl allowed parent DNA (containing N-15) to replicate in the presence of N-14. After one round of DNA replication, which of the following results would support the statement “DNA replication is semiconservative”?",
-        options: ["A. The DNA molecules will contain both N-14 and N-15.", 
-                    "B. The DNA molecules will contain only N-14.", 
-                    "C. The DNA molecules will contain only N-15.", 
-                    "D. The DNA molecules will contain N-15 in one strand and N-14 in the other strand."],
-           answer: "D. The DNA molecules will contain N-15 in one strand and N-14 in the other strand.",
-           explanation: "If DNA replication is semiconservative, each new DNA molecule will contain one old strand (with N-15) and one new strand (with N-14). This can only be observed after one round of replication if the DNA is composed of one strand of each isotope."
+        options: [
+          "A. The DNA molecules will contain both N-14 and N-15.",
+          "B. The DNA molecules will contain only N-14.",
+          "C. The DNA molecules will contain only N-15.",
+          "D. The DNA molecules will contain N-15 in one strand and N-14 in the other strand."
+        ],
+        answer: "D. The DNA molecules will contain N-15 in one strand and N-14 in the other strand.",
+        explanation: "If DNA replication is semiconservative, each new DNA molecule will contain one old strand (with N-15) and one new strand (with N-14). This can only be observed after one round of replication if the DNA is composed of one strand of each isotope."
       },
     ]
   },
@@ -1014,7 +1016,10 @@ export default function MCQ({children}: {children: string}) {
   };
 
   const unitKey = keyMap[children];
-  const questions = unitKey && questionData[unitKey] ? questionData[unitKey].sectionA : [];
+  const questions =
+    unitKey && (questionData as Record<string, { sectionA: any[] }>)[unitKey]
+      ? (questionData as Record<string, { sectionA: any[] }>)[unitKey].sectionA
+      : [];
 
   return (
     <div>
