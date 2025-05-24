@@ -989,7 +989,7 @@ export default function MCQ({children}: {children: string}) {
                 <br />
                 <Image
                   src={q.image}
-                  alt=""
+                  alt="MCQ Image"
                   style={{ maxWidth: "100%", height: "auto" }}
                   width={600}
                   height={400}
