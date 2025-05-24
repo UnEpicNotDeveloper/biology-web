@@ -1126,7 +1126,7 @@ export default function Page() {
    {
       id: 'Repressible Operon',
       x: 2302/2776,
-      y: 1202/2482,
+      y: 1202,
    },
    {
       id: 'Release Factor',
@@ -1561,7 +1561,7 @@ export default function Page() {
    {
       id: 'Vasodilation',
       x: 1295/2776,
-      y: 1702/2482,
+      y: 1702,
    },
    {
       id: 'Cleavage Furrow',
@@ -1790,11 +1790,10 @@ export default function Page() {
       >
         <TransformComponent wrapperStyle={{ width: "100%", height: "100%" }}>
           <div style={{ position: "relative", width: imageWidth, height: imageHeight }}>
-            <Image src="/pib.png" alt="Biology Map" style={{ width: imageWidth, height: imageHeight }}/>
+            <img src="/pib.png " alt="Biology Map" style={{ width: imageWidth, height: imageHeight }}/>
             {hotspots.map((spot) => (
-              <a href="/note">
+              <a href="/note" key={spot.id}>
                 <button
-                  key={spot.id}
                   onClick={() => setTerm(spot.id)}
                   style={{
                     position: "absolute",
@@ -1818,68 +1817,4 @@ export default function Page() {
     </div>
     </main>
   );
-
-  
-  /*return (
-    <div>
-      <Link
-        href="/note"
-        onClick={() => setTerm("mRNA")}
-      >
-        {term} Abiotic Symthesis
-      </Link>
-    </div>
-  );*/
 }
-
-
-
-/*
-//this wraps the image (according to chatgpt)
-function GraphViewer() { //- make sure the pib is in the correct directory
-  return (
-    <TransformWrapper>
-      <TransformComponent>
-        <img src="/pib.png" />     
-      </TransformComponent>
-    </TransformWrapper>
-  );
-}
-//the /note might have to change to a set term or something idrk
-const spots = [
-  {x:100, y: 150, radius:20, page: "/note"},
-
-];
-
-function GraphWithHotspots() {
-  const term = pageState().term;
-  const setTerm = pageState((state) => state.setTerm);
-
-  return(
-    <ImageHotspots
-      src="/pib.png"
-      hotspots={spots}
-      onClick={(spot) => setTerm("mRNA")}
-    />
-  );
-}
-
-function HotspotCircle({ coords, page}) {
-  const[x, y, r] = coords;
-  return (
-    <Link href={page}>
-      <div>
-        style={{
-          position: 'absolute',
-          left: x-r,
-          top: y-r, 
-          width: r*2;
-          height: r*2,
-          borderRadius: '50%',
-          cursor: 'pointer',
-        }}
-      </div>
-    </Link>
-  )
-}
-*/

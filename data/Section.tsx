@@ -2028,3 +2028,28 @@ export function SectionNotes({children}: {children: string}) {
       );
   }
 }
+
+export function SectionDates({children}: {children: string}) {
+  switch(children) {
+    case "2.1":
+    case "2.2":
+    case "2.3":
+    case "2.4":
+    case "2.5":
+    case "2.6":
+    case "2.7":
+    case "4.1":
+    case "4.2":
+    case "4.3":
+    case "4.4":
+    case "4.5":
+    case "6.1":
+    case "6.2":
+    case "6.3":
+    case "6.4":
+    case "6.5-6.6":
+    case "6.7":
+    case "6.8":
+      return "22/5/2025";
+  }
+}
