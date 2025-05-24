@@ -21,7 +21,7 @@ export default function Page() {
       <div>
         <h3>next/image (require syntax)</h3>
         {/* @ts-ignore */}
-        <Image src={require('../../public/pib.png')} alt="pib" width={300} height={200} />
+        <Image src={require('../public/pib.png')} alt="pib" width={300} height={200} />
       </div>
       {/* 3. Using HTML img tag with relative path */}
       <div>
