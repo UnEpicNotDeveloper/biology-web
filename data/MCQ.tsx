@@ -607,6 +607,51 @@ const questionData = {
       },
     ]
   },
+  unit4_5: {
+    sectionA: [
+      {
+        id: '4.5.1',
+        question: "The epidermal growth factor receptor EGFR is a cell surface receptor. When a growth factor binds to EGFR, the receptor is activated. The activated EGFR triggers a signal transduction pathway, which leads to increased frequency of cell division. Which of the following best predicts the effect of a mutation that causes EGFR to be active in the absence of a growth factor?",
+        options: ["A. Increased apoptosis will lead to abnormal growth of the tissue", 
+                  "B. Increased cell division will lead to the formation of a tumor", 
+                  "C. Cells will exit the cell cycle, entering a non-dividing G0 phase", 
+                  "D. Fewer cells will be in any of the stages of mitosis"],
+         answer: "B. Increased cell division will lead to the formation of a tumor",
+         explanation: "Growth factors are important signaling molecules that trigger cells to divide at the correct rate and correct time. An EGFR that is active when a growth factor is absent would lead to increased cell division. Uncontrolled cell growth will likely result in a tumor.   "
+      },
+      {
+        id: '4.5.2',
+        question: "The tumor suppressor protein p53 binds to DNA and activates target genes, which results in the synthesis of p21, CD95, and other proteins. The p21 protein promotes cell-cycle arrest, whereas the CD95 protein promotes apoptosis. Which of the following will most likely result from a loss of p53 function?",
+        options: ["A. Rapid cell growth without cell division", 
+                  "B. Immediate activation of apoptosis pathways", 
+                  "C. Uncontrolled cell proliferation", 
+                  "D. Increased expression of p53 target genes"],
+         answer: "C. Uncontrolled cell proliferation",
+         explanation: "A loss of p53 function will result in unregulated cell proliferation because the p21 protein will not be synthesized. In the absence of the p21 protein, a cell will continue to progress through the cell cycle without stopping. "
+      },
+      {
+        id: '4.5.3',
+        question: "Figure 1 represents the relative time and sequence of the phases of the cell cycle. Which statement best predicts why a cell’s progression through the cell cycle might be halted at the G1 / S checkpoint?  ",
+        image: require("../public/MCQ/4.5.3.png"),
+        options: ["A. Spindle fibers have not correctly attached to chromosomes", 
+                  "B. There are not enough nucleotides available to construct new DNA", 
+                  "C. Damage occurred to DNA when it was being copied in G1  ", 
+                  "D. Proteins necessary for M phase of the cell cycle have not been produced"],
+         answer: "B. There are not enough nucleotides available to construct new DNA",
+         explanation: "DNA replication, which occurs during S phase, requires free nucleotides. If nucleotides are unavailable, the G1/S checkpoint halts the cell cycle to conserve energy.  "
+      },
+      {
+        id: '4.5.4',
+        question: "4. Glycogen synthetase kinase 3 beta is a protein kinase that has been implicated in many types of cancer. Depending on the cell type, the gene for glycogen synthetase kinase 3 beta (GSK3β) can act either as an oncogene or as a tumor suppressor. Which of the following best predicts how GSK3β mutations can lead to the development of cancer?  ",
+        options: ["A. Cells with inactive GSK3β fail to trigger apoptosis", 
+                  "B. Cells with inactive GSK3β fail to proceed past the \(G_2\)/M checkpoint", 
+                  "C. Cells with overactive GSK3β are more likely to repair DNA damage  ", 
+                  "D. Cells with overactive GSK3β have longer cell cycles"],
+         answer: "A. Cells with inactive GSK3β fail to trigger apoptosis",
+         explanation: "If apoptosis cannot be initiated in cells with GSK3β mutations, those cells are more likely to proliferate, which could lead to cancer."
+      },
+    ]
+  },
   unit6_1: {
     sectionA: [
       {

@@ -700,7 +700,7 @@ export function SectionNotes({children}: {children: string}) {
                 <li>The process by which organisms regulate water and solute concentrations to maintain homeostasis</li>
               </ul>
               <div className="flex justify-center my-4">
-                <Image src={require("../public/Section/2.6.1.png")} alt="Semipermeable membrane osmosis" className="max-w-[544px] max-h-[308px]" />
+                <Image src={require("../public/Section/2.6.1.png")} alt="Semipermeable membrane osmosis" className="max-w-[544px] max-h-[308px] bg-white" />
               </div>
               <div className="pl-8 mb-4">
                 <span className="font-bold">Note:</span> the semipermeable membrane allows only water to pass through; not solute particles
