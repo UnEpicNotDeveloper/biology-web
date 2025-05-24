@@ -1074,3 +1074,7 @@ export default function MCQ({children}: {children: string}) {
   );
 }
 */
+
+export default function MCQ({children}: {children: string}) {
+  return "stuff";
+}
