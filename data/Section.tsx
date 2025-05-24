@@ -1404,7 +1404,7 @@ export function SectionNotes({children}: {children: string}) {
               <Image
                 src={require("../public/Section/6.2.1.png")}
                 alt="Mode of DNA replication: Meselson-Stahl experiment"
-                className="max-w-[290px] max-h-[170px]"
+                className="max-w-[580px] max-h-[340px] bg-white"
               />
             </div>
             <ul className="list-disc pl-8 mb-2">
