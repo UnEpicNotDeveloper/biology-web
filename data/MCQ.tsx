@@ -1032,13 +1032,99 @@ export default function MCQ({children}: {children: string}) {
             {q.image && (
               <>
                 <br />
-                <Image
-                  src={q.image}
-                  alt=""
-                  style={{ maxWidth: "100%", height: "auto" }}
-                  width={600}
-                  height={400}
-                />
+                {/* 1. Next.js Image with public path */}
+                <div>
+                  <span style={{fontWeight: 600}}>next/image public path:</span>
+                  <Image
+                    src={q.image}
+                    alt=""
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    width={600}
+                    height={400}
+                  />
+                </div>
+                {/* 2. Next.js Image with /public prefix (should not work, but for test) */}
+                <div>
+                  <span style={{fontWeight: 600}}>/public prefix:</span>
+                  <Image
+                    src={`/public${q.image}`}
+                    alt=""
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    width={600}
+                    height={400}
+                  />
+                </div>
+                {/* 3. img tag with public path */}
+                <div>
+                  <span style={{fontWeight: 600}}>&lt;img&gt; public path:</span>
+                  <img
+                    src={q.image}
+                    alt=""
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    width={600}
+                    height={400}
+                  />
+                </div>
+                {/* 4. img tag with /public prefix */}
+                <div>
+                  <span style={{fontWeight: 600}}>&lt;img&gt; /public prefix:</span>
+                  <img
+                    src={`/public${q.image}`}
+                    alt=""
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    width={600}
+                    height={400}
+                  />
+                </div>
+                {/* 5. Next.js Image with relative path (should not work, but for test) */}
+                <div>
+                  <span style={{fontWeight: 600}}>next/image relative path:</span>
+                  <Image
+                    src={`.${q.image}`}
+                    alt=""
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    width={600}
+                    height={400}
+                  />
+                </div>
+                {/* 6. img tag with relative path */}
+                <div>
+                  <span style={{fontWeight: 600}}>&lt;img&gt; relative path:</span>
+                  <img
+                    src={`.${q.image}`}
+                    alt=""
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    width={600}
+                    height={400}
+                  />
+                </div>
+                {/* 7. Next.js Image with absolute URL (if running on localhost:3000) */}
+                <div>
+                  <span style={{fontWeight: 600}}>next/image absolute URL:</span>
+                  <Image
+                    src={`http://localhost:3000${q.image}`}
+                    alt=""
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    width={600}
+                    height={400}
+                  />
+                </div>
+                {/* 8. img tag with absolute URL */}
+                <div>
+                  <span style={{fontWeight: 600}}>&lt;img&gt; absolute URL:</span>
+                  <img
+                    src={`http://localhost:3000${q.image}`}
+                    alt=""
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    width={600}
+                    height={400}
+                  />
+                </div>
+                {/* 9. Next.js Image with static import (not possible dynamically, but for reference) */}
+                {/* 
+                import imgSrc from '../public/MCQ/2.2.1.png';
+                <Image src={imgSrc} alt="" width={600} height={400} />
+                */}
               </>
             )}
             <ul>
