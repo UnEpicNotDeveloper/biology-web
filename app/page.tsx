@@ -1798,7 +1798,7 @@ export default function Page() {
               style={{ width: imageWidth, height: imageHeight }}
             />
             {hotspots.map((spot) => (
-              <a href="/note" key={spot.id}>
+              <a href="/biology-web/note" key={spot.id}>
                 <button
                   onClick={() => setTerm(spot.id)}
                   style={{

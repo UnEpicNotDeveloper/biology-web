@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 const questionData = {
   unit2_1: {
@@ -1028,7 +1029,18 @@ export default function MCQ({children}: {children: string}) {
         return (
           <div key={q.id} style={{marginBottom: "2em"}}>
             <div><strong>{q.question}</strong></div>
-            {q.image && <><br /><img src={q.image} alt="" style={{maxWidth: "100%"}} /></>}
+            {q.image && (
+              <>
+                <br />
+                <Image
+                  src={require(`../public${q.image}`)}
+                  alt=""
+                  style={{ maxWidth: "100%", height: "auto" }}
+                  width={600}
+                  height={400}
+                />
+              </>
+            )}
             <ul>
               {q.options.map((opt: string, idx: number) => (
                 <li key={idx}>{opt}</li>
