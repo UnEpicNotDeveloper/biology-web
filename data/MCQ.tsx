@@ -753,7 +753,7 @@ const questionData = {
       {
         id: '6.4.1',
         question: "1. Molecular biologists are studying the processes of transcription and translation and have found that they are very similar in prokaryotes and eukaryotes, as summarized in Table 1.  Based on the information in Table 1, which of the following best predicts a key difference in prokaryotes and eukaryotes with regard to transcription and translation? ",
-        //image: require("../public/MCQ/6.4.1.png"),
+        image: require("../public/MCQ/6.4.1.jpg"),
         options: ["A. The two processes will occur simultaneously in prokaryotes but not eukaryotes.  ", 
                     "B. Prokaryotic mRNA is shorter than eukaryotic mRNA.", 
                     "C. Eukaryotic mRNA contains more coding regions than prokaryotic DNA.", 
