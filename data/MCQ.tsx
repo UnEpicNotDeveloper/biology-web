@@ -63,7 +63,7 @@ const questionData = {
       {
         id: '2.2.1',
         question: "Researchers conducted an experiment to investigate the effects of a valinomycin treatment on skeletal muscle cells. Valinomycin is a naturally occurring substance that can be used as a drug. The results of the experiment are presented in the table. Which of the following claims about the effects of the valinomycin treatment is best supported by the data presented in the table",
-        image: "/MCQ/2.2.1.png", 
+        image: "../public/MCQ/2.2.1.png", 
         options: ["A. The valinomycin treatment caused an increase in the activity of the rough endoplasmic reticulum.", 
                     "B. The valinomycin treatment caused an increase in the activity of the Golgi complex.", 
                     "C. The valinomycin treatment caused a decrease in the activity of the lysosome.", 
@@ -74,7 +74,7 @@ const questionData = {
       {
          id: '2.2.2',
          question: "Which of the following characteristics distinguishes a protocell from other non living structures?",
-         image: "/MCQ/2.2.2.png", 
+         image: "../public/MCQ/2.2.2.png", 
          options: ["A. Ability to perform binary fission", 
                     "B. Possession of membrane-bound nucleus", 
                     "C. Maintenance of an internal chemical environment different from its surroundings", 
@@ -139,7 +139,7 @@ const questionData = {
       {
         id: '2.3.1',
         question: " Some cells, such as intestinal cells, exchange a lot of material with their surroundings. The surface-to-volume ratio of these cells affects the efficiency of material exchange. Which cell has the highest surface area to volume ratio? The table provides measurements of four different eukaryotic cells.",
-        image: "/MCQ/2.3.1.png",
+        image: "../public/MCQ/2.3.1.png",
         options: ["A. Cell 1", 
                     "B. Cell 2", 
                     "C. Cell 3", 
@@ -184,7 +184,7 @@ const questionData = {
       {
         id: '2.4.1',
         question: "Figure 1. Testosterone movement across the cellular membrane. Testosterone is a small steroid hormone that is important in cell signaling. Which of the following describes where testosterone enters a cell and why it is able to cross at that point?",
-        image: "/MCQ/2.4.1.png",
+        image: "../public/MCQ/2.4.1.png",
         options: ["A. 1, testosterone is nonpolar and can diffuse through the membrane.", 
                     "B. 2, testosterone covalently binds to a surface protein and transports into the cell.", 
                     "C. 3, testosterone dissolves in water and flows through the channel.", 
@@ -195,7 +195,7 @@ const questionData = {
       {
         id: '2.4.2',
         question: "The figure shows a representation of a protein embedded in a cell membrane. The numbers indicate different structural regions of the protein. Based on the figure, which of the following statements best describes the relationship between regions 1 and 2 of the protein?",
-        image: "/MCQ/2.4.2.png",
+        image: "../public/MCQ/2.4.2.png",
         options: ["A. Region 1 is hydrophilic because it interacts with the interior of the membrane, whereas region 2 is hydrophobic because it interacts with an aqueous environment.", 
                     "B. Region 1 is hydrophilic because it interacts with an aqueous environment, whereas region 2 is hydrophobic because it interacts with the interior of the membrane.", 
                     "C. Region 1 is hydrophobic because it interacts with the interior of the membrane, whereas region 2 is hydrophilic because it interacts with an aqueous environment. ", 
@@ -206,7 +206,7 @@ const questionData = {
       {
         id: '2.4.3',
         question: "Which of the following best describes the numbered areas?",
-        image: "/MCQ/2.4.3.png",
+        image: "../public/MCQ/2.4.3.png",
         options: ["A. Areas 1 and 3 are polar, since the membrane molecules are aligned with water molecules.", 
                     "B. Area 2 is polar, since water has been excluded from this area of the membrane.  ", 
                     "C. Areas 1 and 3 are hydrophilic, since membrane molecules formed covalent bonds with water.", 
@@ -251,7 +251,7 @@ const questionData = {
       {
         id: '2.5.1',
         question: "Intravenous (IV) therapy is used for fluid replacement in instances of dehydration in humans and other animals. One type of IV fluid is essentially a saltwater solution. To determine the best concentration for therapy in people, a team of students is researching the effects of solutions of different salt concentrations on red blood cells. The following observations were made from three different red blood cell samples viewed under a microscope. The figure presents three blood cells. The left cell is swollen, the middle cell is of normal disc shape, and the right cell is shrunken and irregular. 1. 0.3% Saline (Cells swell) 2. 0.9% Saline (Cells unchanged) 3. 1.5% Saline (Cells shrink).    The team wants to extend the research project. What should the team of students do next to obtain data that are more conclusive?  ",
-        image: "/MCQ/2.5.1.png",
+        image: "../public/MCQ/2.5.1.png",
         options: ["A. Repeat the process with other salt concentrations. ", 
                     "B. Develop a model to explain why the cells react differently to different salt concentrations. ", 
                     "C. Repeat the process using red blood cells from other animals.  ", 
@@ -282,7 +282,7 @@ const questionData = {
       {
         id: '2.5.4',
         question: "An investigator wants to understand whether a newly found membrane protein is involved in membrane transport of a certain particle. Which investigation will help determine whether the new membrane protein is a channel protein involved in membrane transport?  Figure 1. A section of a cell’s plasma membrane, showing a channel protein and a concentration gradient across the membrane ",
-        image: "/MCQ/2.5.4.png",
+        image: "../public/MCQ/2.5.4.png",
         options: ["A. Add small nonpolar molecules to the extracellular space and measure the direction of particle movement of the molecules.  ", 
                     "B. Measure the rate of extracellular fluid movement into the intracellular space.", 
                     "C. Add more of the proteins to the plasma membrane and measure the rate of the particle movement.", 
@@ -313,7 +313,7 @@ const questionData = {
       {
         id: '2.5.7',
         question: " Some membrane proteins help maintain the concentrations of ions inside a cell by transporting the ions across the cell\'s plasma membrane. Other membrane proteins form pores in the plasma membrane through which the ions can diffuse. A model showing the influence of membrane proteins on the movement of sodium (\(Na^+\)) and potassium (\(K^+\)) ions across a plasma membrane is presented in Figure 1. ",
-        image: "/MCQ/2.5.7.png",
+        image: "../public/MCQ/2.5.7.png",
         options: ["A. The \(Na^+\) concentration outside the cell will increase", 
                     "B. The \(Na^+\) concentration inside the cell will increase.  ", 
                     "C. The \(K^+\) concentration inside the cell will increase.", 
@@ -324,7 +324,7 @@ const questionData = {
       {
         id: '2.5.8',
         question: "The illustration shows the active transport of hydrogen ions through a membrane protein. Which of the following best predicts the effect of not having ATP available to supply energy to this process?",
-        image: "/MCQ/2.5.8.png",
+        image: "../public/MCQ/2.5.8.png",
         options: ["A.  H+ ions will stop moving through the protein.", 
                     "B. H+ ions will move in the other direction through the protein.  ", 
                     "C.  H+ ions will continue to move through the protein in the original direction but at a slower rate. ", 
@@ -344,7 +344,7 @@ const questionData = {
                     "C. positive", 
                     "D. dependent on temperature"],
            answer: "B. zero ",
-           explanation: " Since solute potential is given by the formula ΨS = -iCRT, if any value is 0, ΨS will be 0. Since there is no concentration of solute in distilled water, it will therefore have both a concentration and solute potential of 0."
+           explanation: "Since solute potential is given by the formula ΨS = -iCRT, if any value is 0, ΨS will be 0. Since there is no concentration of solute in distilled water, it will therefore have both a concentration and solute potential of 0."
       },
       {
         id: '2.6.2',
@@ -501,7 +501,7 @@ const questionData = {
       {
         id: '4.2.4',
         question: "The epinephrine signaling pathway plays a role in regulating glucose homeostasis in muscle cells. The signaling pathway is activated by the binding of epinephrine to the beta-2 adrenergic receptor. A simplified model of the epinephrine signaling pathway is represented in Figure 1. Figure 1. A simplified model of the epinephrine signaling pathway in muscle cells. Based on Figure 1, which of the following statements best describes the epinephrine signaling pathway?  ",
-        //image = "/MCQ/4.2.4.png",
+        image: "../public/MCQ/4.2.4.png",
         options: ["A. It involves the opening and closing of ion channels", 
                     "B. In involves enzymes activating other enzymes ", 
                     "C. It involves changes in the expression of target genes", 
@@ -516,7 +516,7 @@ const questionData = {
       {
         id: '4.3.1',
         question: "Phosphofructokinase (PFK) is a key enzyme in glycolysis. ATP is one of the two substrates for the reaction catalyzed by PFK. ATP is also an allosteric regulator of PFK. Figure 1 shows the enzyme-substrate interactions of PFK Figure 1. The enzyme-substrate interactions of PFK. A researcher found a mutation that resulted in the PFK enzyme being unable to bind ATP to the allosteric site. Which of the following best predicts the effect of the mutation?   ",
-        //image = "/MCQ/4.3.1.png",
+        inage: "../public/MCQ/4.3.1.png",
         options: ["A. The activity of the enzyme will not be affected because the active site is not involved in substrate binding at the allosteric site", 
                     "B. Negative feedback regulation does not occur, so the enzyme will be active when glycolysis is not needed", 
                     "C. Positive feedback does not occur, and the activity of the enzyme will decrease when glycolysis is needed", 
@@ -527,7 +527,7 @@ const questionData = {
       {
         id: '4.3.2',
         question: "A person’s blood glucose level fluctuates during the day, as represented in Figure 1. Two hormones, insulin and glucagon, are directly involved in regulating the blood glucose level to maintain a healthy level. Insulin acts to lower the blood glucose level, and glucagon acts to increase the blood glucose level. Figure 1. Blood glucose fluctuations of an individual. Which of the following best predicts what will happen to the blood glucose level if the person has another meal at 5 p.m.?  ",
-        //image = "/MCQ/4.3.2.png",
+        image: "../public/MCQ/4.3.2.png",
         options: ["A. Immediately after the meal, the blood glucose level will decrease because of the increase in glucagon levels  ", 
                     "B. Immediately after the meal, the blood glucose level will increase, and then insulin will be secreted to counter the increase", 
                     "C. Several hours after the meal, the blood glucose level will increase sharply because of an increase in the amount of glucagon secreted", 
@@ -538,7 +538,7 @@ const questionData = {
       {
         id: '4.3.3',
         question: "Blood clots are formed by a positive feedback loop. Two pathways exist, the extrinsic and intrinsic pathways, which converge during clot formation. There are many clotting factors involved, most of which are proteins. Vitamin K is required for the formation of the active form of several of the clotting factors, including Factor X. A simplified model of the blood clotting process is shown in Figure 1. Warfarin is a drug used to treat certain blood clots. Warfarin blocks the formation of the active form of vitamin K-dependent clotting factors. Based on the model, which of the following best predicts the effects of warfarin on a patient?   ",
-        //image = "/MCQ/4.3.3.png",
+        image: "../public/MCQ/4.3.3.png",
         options: ["A. Fibrinogen will form fibrin, but the clot will not form because Factor XIII will not be synthesized", 
                     "B. The intrinsic pathway will take over because the clotting factors are part of that pathway", 
                     "C.Thrombin will be converted to prothrombin because Factor X will reverse the reaction", 
@@ -549,7 +549,7 @@ const questionData = {
       {
         id: '4.3.4',
         question: "The epinephrine signaling pathway plays a role in regulating glucose homeostasis in muscle cells. The signaling pathway is activated by the binding of epinephrine to the beta-2 adrenergic receptor. A simplified model of the epinephrine signaling pathway is represented in Figure 1. Figure 1. A simplified model of the epinephrine signaling pathway in muscle cells Cyclic AMP phosphodiesterase is an enzyme that catalyzes the conversion of cyclic AMP to a different molecule. Which of the following best predicts the effect of inhibiting cyclic AMP phosphodiesterase in a muscle cell stimulated by epinephrine? ",
-        //image = "/MCQ/4.3.4.png",
+        image: "../public/MCQ/4.3.4.png",
         options: ["A. The concentration of cyclic AMP will decrease because adenylyl cyclase will no longer be activated", 
                     "B. The G protein will diffuse out of the cell because it will no longer bind to the plasma membrane  ", 
                     "C. Phosphorylase kinase will remain active because protein kinase A will no longer be deactivated", 
@@ -564,7 +564,7 @@ const questionData = {
       {
         id: '4.4.1',
         question: "Scientists have estimated that it takes yeast cells approximately 20 hours to complete the entire cycle. Table 1 shows the amount of time in each phase of the life cycle for yeast cells. Based on Table 1, what percent of the life cycle of yeast cells is spent in DNA replication?",
-        image: "/MCQ/4.4.1.png",
+        image: require("../public/MCQ/4.4.1.png"),
         options: ["A. 5%", 
                     "B. 10%", 
                     "C. 25%", 
@@ -575,7 +575,7 @@ const questionData = {
       {
         id: '4.4.2',
         question: "Researchers grew seedlings of corn, Zea mays, in loose and compact sand. The researchers measured the amount of time required for the cells in the growing root tips of the seedlings to double in number. The mean cell doubling times for the two groups of seedlings are shown in Figure 1. Figure 1. Mean cell doubling times for the growing root tips of Zea mays seedlings planted in loose or compact sand. Based on the sample means, which of the following conclusions about the cells in the growing root tips of Zea mays seedlings is best supported by the results of the experiment?",
-        image: "/MCQ/4.4.2.png",
+        image: require("../public/MCQ/4.4.2.png"),
         options: ["A. The cells of the root tips grow to larger sizes when the seedlings are planted in compact sand than when the seedlings are planted in loose sand  ", 
                     "B. The average rate of mitotic cell division is greater for the root tips growing in loose sand than for the root tips growing in compact sand", 
                     "C. The average cell cycle time is greater for the root tips growing in compact sand than for the root tips growing in loose sand", 
@@ -586,7 +586,7 @@ const questionData = {
       {
         id: '4.4.3',
         question: "The relative amounts of DNA present in the nucleus of a cell at four different stages of the life cycle are shown in Figure 1. Figure 1. Relative amounts of DNA present in the nucleus of a cell Based on Figure 1, which of the following statements correctly links a stage of the cell cycle with the event occurring at that stage? ",
-        image: "/MCQ/4.4.3.png",
+        image: require("../public/MCQ/4.4.3.png"),
         options: ["A. Stage I represents the \(G_2\) phase of the cell cycle ", 
                     "B. Synthesis of sufficient DNA for two daughter cells occurs in stage II  ", 
                     "C. Stage III includes mitosis", 
@@ -597,7 +597,7 @@ const questionData = {
       {
         id: '4.4.4',
         question: "4. Researchers tracked the amount of DNA (measured in picograms) over time beginning with a single cell and continuing through several rounds of cell division. The researchers observed threadlike chromosomes prior to cell division. The threadlike chromosomes disappeared from view shortly after each division. The amount of DNA in picograms per cell over several rounds of cell division is shown in Figure 1.  Figure 1. Amount of DNA in picograms per cell over several rounds of cell division. Which of the following statements is consistent with the data in Figure 1? ",
-        image: "/MCQ/4.4.4.png",
+        image: require("../public/MCQ/4.4.4.png"),
         options: ["A. The cells have a haploid chromosome number of 3   ", 
                     "B. The cells have a diploid chromosome number of 6", 
                     "C. There is a change from 3 to 6 picograms of DNA because DNA is replicated before each round of cell division", 
@@ -607,57 +607,12 @@ const questionData = {
       },
     ]
   },
-  unit4_5: {
-    sectionA: [
-      {
-        id: '4.5.1',
-        question: "The epidermal growth factor receptor EGFR is a cell surface receptor. When a growth factor binds to EGFR, the receptor is activated. The activated EGFR triggers a signal transduction pathway, which leads to increased frequency of cell division. Which of the following best predicts the effect of a mutation that causes EGFR to be active in the absence of a growth factor?",
-        options: ["A. Increased apoptosis will lead to abnormal growth of the tissue", 
-                    "B. Increased cell division will lead to the formation of a tumor", 
-                    "C. Cells will exit the cell cycle, entering a non-dividing G0 phase", 
-                    "D. Fewer cells will be in any of the stages of mitosis"],
-           answer: "B. Increased cell division will lead to the formation of a tumor",
-           explanation: "Growth factors are important signaling molecules that trigger cells to divide at the correct rate and correct time. An EGFR that is active when a growth factor is absent would lead to increased cell division. Uncontrolled cell growth will likely result in a tumor.   "
-      },
-      {
-        id: '4.5.2',
-        question: "The tumor suppressor protein p53 binds to DNA and activates target genes, which results in the synthesis of p21, CD95, and other proteins. The p21 protein promotes cell-cycle arrest, whereas the CD95 protein promotes apoptosis. Which of the following will most likely result from a loss of p53 function?",
-        options: ["A. Rapid cell growth without cell division", 
-                    "B. Immediate activation of apoptosis pathways", 
-                    "C. Uncontrolled cell proliferation", 
-                    "D. Increased expression of p53 target genes"],
-           answer: "C. Uncontrolled cell proliferation",
-           explanation: "A loss of p53 function will result in unregulated cell proliferation because the p21 protein will not be synthesized. In the absence of the p21 protein, a cell will continue to progress through the cell cycle without stopping. "
-      },
-      {
-        id: '4.5.3',
-        question: "Figure 1 represents the relative time and sequence of the phases of the cell cycle. Which statement best predicts why a cell’s progression through the cell cycle might be halted at the G1 / S checkpoint?  ",
-        image: "/MCQ/4.5.3.png",
-        options: ["A. Spindle fibers have not correctly attached to chromosomes", 
-                    "B. There are not enough nucleotides available to construct new DNA", 
-                    "C. Damage occurred to DNA when it was being copied in G1  ", 
-                    "D. Proteins necessary for M phase of the cell cycle have not been produced"],
-           answer: "B. There are not enough nucleotides available to construct new DNA",
-           explanation: "DNA replication, which occurs during S phase, requires free nucleotides. If nucleotides are unavailable, the G1/S checkpoint halts the cell cycle to conserve energy.  "
-      },
-      {
-        id: '4.5.4',
-        question: "4. Glycogen synthetase kinase 3 beta is a protein kinase that has been implicated in many types of cancer. Depending on the cell type, the gene for glycogen synthetase kinase 3 beta (GSK3β) can act either as an oncogene or as a tumor suppressor. Which of the following best predicts how GSK3β mutations can lead to the development of cancer?  ",
-        options: ["A. Cells with inactive GSK3β fail to trigger apoptosis", 
-                    "B. Cells with inactive GSK3β fail to proceed past the \(G_2\)/M checkpoint", 
-                    "C. Cells with overactive GSK3β are more likely to repair DNA damage  ", 
-                    "D. Cells with overactive GSK3β have longer cell cycles"],
-           answer: "A. Cells with inactive GSK3β fail to trigger apoptosis",
-           explanation: "If apoptosis cannot be initiated in cells with GSK3β mutations, those cells are more likely to proliferate, which could lead to cancer."
-      },
-    ]
-  },
   unit6_1: {
     sectionA: [
       {
         id: '6.1.1',
         question: " Erwin Chargaff investigated the nucleotide composition of DNA. He analyzed DNA from various organisms and measured the relative amounts of adenine (A), guanine (G), cytosine (C), and thymine (T) present in the DNA of each organism. Table 1 contains a selected data set of his results. Which of the following statements best explains the data set?  ",
-        image: "/MCQ/6.1.1.png",
+        image: require("../public/MCQ/6.1.1.png"),
         options: ["A. Since the %A and the %G add up to approximately 50 percent in each sample, adenine and guanine molecules must pair up in a double-stranded DNA molecule.  ", 
                     "B. Since the %A and the %T are approximately the same in each sample, adenine and thymine molecules must pair up in a double-stranded DNA molecule.  ", 
                     "C. Since the %(A+T) is greater than the %(G+C) in each sample, DNA molecules must have a poly-A tail at one end.  ", 
@@ -702,7 +657,7 @@ const questionData = {
       {
         id: '6.2.1',
         question: "A model of a process involving nucleic acids is shown in Figure 1. Figure 1. Model of a process involving nucleic acids. Which of the following best explains what process is represented in Figure 1 ?   ",
-        image: "/MCQ/6.2.1.png",
+        image: require("../public/MCQ/6.2.1.png"),
         options: ["A. New DNA strands are being synthesized in the 3' to 5' direction from their DNA templates.", 
                     "B. New DNA strands are being synthesized in the 5' to 3' direction from their DNA templates.", 
                     "C. A new RNA strand is being synthesized in the 3' to 5' end from its DNA template.", 
@@ -713,7 +668,7 @@ const questionData = {
       {
         id: '6.2.2',
         question: "Figure 1 shows some relevant details of a model of how a deoxynucleotide, in this case dTMP, is added to a growing strand of DNA. Figure 1. Model showing details of adding a deoxythymidine monophosphate (dTMP) nucleotide to a growing strand of DNA. The features of this model provide evidence for which explanation of why all growing strands are synthesized in a 5′ to 3′ direction?  ",
-        image: "/MCQ/6.2.2.png",
+        image: require("../public/MCQ/6.2.2.png"),
         options: ["A. The two strands need to be antiparallel to bond properly.  ", 
                     "B. Thymine and adenine would not bond properly if the strand grew from 3' to 5'.  ", 
                     "C. The translation of mRNA occurs in the 5' to 3' direction; therefore, the growing DNA strand must also grow in the 5' to 3' direction.", 
@@ -724,7 +679,7 @@ const questionData = {
       {
         id: '6.2.3',
         question: " Figure 1. illustrates a model of the molecules involved in DNA replication and their placement relative to each other. Which of the following correctly explains where DNA replication will begin on the strand oriented 5'→3', reading from left to right?  ",
-        image: "/MCQ/6.2.3.png",
+        image: require("../public/MCQ/6.2.3.png"),
         options: ["A. DNA replication will be randomly initiated along the unwound portion of the DNA strand since base pairing will occur.  ", 
                     "B. DNA replication cannot occur since there is already RNA base pairing with the template strand.  ", 
                     "C. DNA replication will be initiated immediately to the left of the RNA, since DNA polymerase requires an RNA primer.", 
@@ -751,7 +706,7 @@ const questionData = {
       {
         id: '6.3.1',
         question: "A model that represents a process occurring in a cell of a particular organism is shown in Figure 1. Which of the following correctly explains the process shown in Figure 1? ",
-        image: "/MCQ/6.3.1.png",
+        image: require("../public/MCQ/6.3.1.png"),
         options: ["A. DNA replication is occurring because replication is semi-conservative and the new strand is a copy of the template strand", 
                     "B. Initiation of transcription is occurring because a strand of RNA is being produced from a DNA template strand.", 
                     "C. Translation is occurring because the two strands have separated and a new strand is being produced.", 
@@ -762,7 +717,7 @@ const questionData = {
       {
         id: '6.3.2',
         question: "2. Figure 1 represents part of a process that occurs in eukaryotic cells. There are untranslated regions (UTR) in this sequence. Which of the following best explains the process represented by Figure 1? ",
-        image: "/MCQ/6.3.2.png",
+        image: require("../public/MCQ/6.3.2.png"),
         options: ["A. The synthesis of mRNA in the 5' to 3' direction from DNA", 
                     "B. The modification of a protein to produce a functional form of that protein", 
                     "C. The translation of an mRNA molecule into a polypeptide", 
@@ -773,7 +728,7 @@ const questionData = {
       {
         id: '6.3.3',
         question: "Figure 1 represents part of a process essential to gene expression. Which of the following best explains what strand X represents?  ",
-        image: "/MCQ/6.4.3.png",
+        image: require("../public/MCQ/6.3.3.png"),
         options: ["A. A complementary RNA sequence, because it contains thymine  ", 
                     "B. The coding strand in this process, because it is being read 3' to 5'", 
                     "C. The antisense strand, because it is serving as a template  ", 
@@ -798,7 +753,7 @@ const questionData = {
       {
         id: '6.4.1',
         question: "1. Molecular biologists are studying the processes of transcription and translation and have found that they are very similar in prokaryotes and eukaryotes, as summarized in Table 1.  Based on the information in Table 1, which of the following best predicts a key difference in prokaryotes and eukaryotes with regard to transcription and translation? ",
-        image: "/MCQ/6.4.1.png",
+        //image: require("../public/MCQ/6.4.1.png"),
         options: ["A. The two processes will occur simultaneously in prokaryotes but not eukaryotes.  ", 
                     "B. Prokaryotic mRNA is shorter than eukaryotic mRNA.", 
                     "C. Eukaryotic mRNA contains more coding regions than prokaryotic DNA.", 
@@ -838,7 +793,7 @@ const questionData = {
                     "C. increased production of the repressor protein", 
                     "D. increased binding of the repressor protein to the operator"],
            answer: "D. increased binding of the repressor protein to the operator",
-           explanation: "Corepressors help the repressor protein bind to the operator. Since serine is a corepressor, its presence would result in increased binding of the repressor protein to the operator. Choice (A) is incorrect because repressible operons are usually anabolic, not catabolic, in function and thus they would not be involved in the digestion of serine. Since serine functions as a corepressor, the presence of serine would reduce the expression of the operon and would not result in increased levels of serine. Thus, choice (B) is incorrect. The presence of the corepressor does not affect the production of the repressor protein, so choice (C) is incorrect.  "
+           explanation: "Corepressors help the repressor protein bind to the operator. Since serine is a corepressor, its presence would result in increased binding of the repressor protein to the operator. Choice (A) is incorrect because repressible operons are usually anabolic, not catabolic, in function and thus they would not be involved in the digestion of serine. Since serine functions as a corepressor, the presence of serine would reduce the expression of the operon and would not result in increased levels of serine. Thus, choice (B) is incorrect. The presence of the corepressor does not affect the production of the repressor protein, so choice (C) is incorrect. The presence of the corepressor results in decreased binding of the repressor protein to the operator, so choice (D) is also incorrect.  "
       },
       {
         id: '6.5.2',
@@ -1032,99 +987,13 @@ export default function MCQ({children}: {children: string}) {
             {q.image && (
               <>
                 <br />
-                {/* 1. Next.js Image with public path */}
-                <div>
-                  <span style={{fontWeight: 600}}>next/image public path:</span>
-                  <Image
-                    src={q.image}
-                    alt=""
-                    style={{ maxWidth: "100%", height: "auto" }}
-                    width={600}
-                    height={400}
-                  />
-                </div>
-                {/* 2. Next.js Image with /public prefix (should not work, but for test) */}
-                <div>
-                  <span style={{fontWeight: 600}}>/public prefix:</span>
-                  <Image
-                    src={`/public${q.image}`}
-                    alt=""
-                    style={{ maxWidth: "100%", height: "auto" }}
-                    width={600}
-                    height={400}
-                  />
-                </div>
-                {/* 3. img tag with public path */}
-                <div>
-                  <span style={{fontWeight: 600}}>&lt;img&gt; public path:</span>
-                  <img
-                    src={q.image}
-                    alt=""
-                    style={{ maxWidth: "100%", height: "auto" }}
-                    width={600}
-                    height={400}
-                  />
-                </div>
-                {/* 4. img tag with /public prefix */}
-                <div>
-                  <span style={{fontWeight: 600}}>&lt;img&gt; /public prefix:</span>
-                  <img
-                    src={`/public${q.image}`}
-                    alt=""
-                    style={{ maxWidth: "100%", height: "auto" }}
-                    width={600}
-                    height={400}
-                  />
-                </div>
-                {/* 5. Next.js Image with relative path (should not work, but for test) */}
-                <div>
-                  <span style={{fontWeight: 600}}>next/image relative path:</span>
-                  <Image
-                    src={`.${q.image}`}
-                    alt=""
-                    style={{ maxWidth: "100%", height: "auto" }}
-                    width={600}
-                    height={400}
-                  />
-                </div>
-                {/* 6. img tag with relative path */}
-                <div>
-                  <span style={{fontWeight: 600}}>&lt;img&gt; relative path:</span>
-                  <img
-                    src={`.${q.image}`}
-                    alt=""
-                    style={{ maxWidth: "100%", height: "auto" }}
-                    width={600}
-                    height={400}
-                  />
-                </div>
-                {/* 7. Next.js Image with absolute URL (if running on localhost:3000) */}
-                <div>
-                  <span style={{fontWeight: 600}}>next/image absolute URL:</span>
-                  <Image
-                    src={`http://localhost:3000${q.image}`}
-                    alt=""
-                    style={{ maxWidth: "100%", height: "auto" }}
-                    width={600}
-                    height={400}
-                  />
-                </div>
-                {/* 8. img tag with absolute URL */}
-                <div>
-                  <span style={{fontWeight: 600}}>&lt;img&gt; absolute URL:</span>
-                  <img
-                    src={`http://localhost:3000${q.image}`}
-                    alt=""
-                    style={{ maxWidth: "100%", height: "auto" }}
-                    width={600}
-                    height={400}
-                  />
-                </div>
-                {/* 9. Next.js Image with static import (not possible dynamically, but for reference) */}
-                {/* 
-                import imgSrc from '../public/MCQ/2.2.1.png';
-                <Image src={imgSrc} alt="" width={600} height={400} />
-                */}
+                <Image
+                  src={q.image}
+                  alt=""
+                  style={{ maxWidth: "100%", height: "auto" }}
+                  width={600}
+                  height={400}
+                />
               </>
             )}
             <ul>
