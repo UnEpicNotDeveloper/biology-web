@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+/*import React, { useState } from "react";
 import Image from "next/image";
 
 const questionData = {
@@ -1073,3 +1073,4 @@ export default function MCQ({children}: {children: string}) {
     </div>
   );
 }
+*/

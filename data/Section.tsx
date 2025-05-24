@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Placeholder({children}: {children: string}) {return ""}
 
 export function SectionNames({children}: {children: string}) {
@@ -203,7 +205,7 @@ export function SectionNotes({children}: {children: string}) {
                   </tbody>
                 </table>
               </div>
-              <img src="/Section/2.2.1.png" alt="Prokaryotic vs Eukaryotic" className="my-4 mx-auto" />
+              <Image src={require("../public/Section/2.2.1.png")} alt="Prokaryotic vs Eukaryotic" className="my-4 mx-auto" />
             </div>
             <div className="mb-4">
               <div className="font-bold">Similarities between <span className="font-bold">all</span> cells</div>
@@ -363,7 +365,7 @@ export function SectionNotes({children}: {children: string}) {
                   </ul>
                 </li>
               </ul>
-              <img src="/Section/2.2.2.png" alt="Cell Structure" className="my-4 mx-auto" />
+              <Image src={require("../public/Section/2.2.2.png")} alt="Cell Structure" className="my-4 mx-auto" />
             </div>
           </div>
         </div>
@@ -404,7 +406,7 @@ export function SectionNotes({children}: {children: string}) {
                   <li>
                     Together they form the phospholipid bilayer (PBL)
                     <div className="flex justify-center my-4">
-                      <img src="/Section/2.4.1.png" alt="Phospholipid Bilayer" className="max-w-[400px] max-h-[350px] bg-white" />
+                      <Image src={require("../public/Section/2.4.1.png")} alt="Phospholipid Bilayer" className="max-w-[400px] max-h-[350px] bg-white" />
                     </div>
                   </li>
                 </ul>
@@ -515,7 +517,7 @@ export function SectionNotes({children}: {children: string}) {
                 </li>
               </ul>
               <div className="flex justify-center my-4">
-                <img src="/Section/2.4.2.jpg" alt="Fluid Mosaic Model" className="max-w-[600px] max-h-[360px]" />
+                <Image src={require("../public/Section/2.4.2.jpg")} alt="Fluid Mosaic Model" className="max-w-[600px] max-h-[360px]" />
               </div>
             </div>
             <div className="mb-8">
@@ -580,7 +582,7 @@ export function SectionNotes({children}: {children: string}) {
               </ul>
               <div className="font-bold mt-4 mb-2">Key Idea - passive transport leads to equilibrium</div>
               <div className="flex justify-center my-4">
-                <img src="/Section/2.5.5.png" alt="Passive Transport Equilibrium" className="max-w-[600px] max-h-[300px]" />
+                <Image src={require("../public/Section/2.5.5.png")} alt="Passive Transport Equilibrium" className="max-w-[600px] max-h-[300px]" />
               </div>
             </div>
             <div className="mb-6">
@@ -603,7 +605,7 @@ export function SectionNotes({children}: {children: string}) {
                 </li>
               </ul>
               <div className="flex justify-center my-4">
-                <img src="/Section/2.5.2.png" alt="Sodium Potassium Pump" className="max-w-[600px] max-h-[260px]" />
+                <Image src={require("../public/Section/2.5.2.png")} alt="Sodium Potassium Pump" className="max-w-[600px] max-h-[260px]" />
               </div>
               <div className="font-bold mt-4 mb-2">Cotransport</div>
               <ul className="list-disc pl-8 mb-2">
@@ -626,7 +628,7 @@ export function SectionNotes({children}: {children: string}) {
                 </li>
               </ul>
               <div className="flex justify-center my-4">
-                <img src="/Section/2.5.1.png" alt="Cotransport" className="max-w-[600px] max-h-[220px]" />
+                <Image src={require("../public/Section/2.5.1.png")} alt="Cotransport" className="max-w-[600px] max-h-[220px]" />
               </div>
             </div>
             <div className="mb-6">
@@ -680,8 +682,8 @@ export function SectionNotes({children}: {children: string}) {
                 </li>
               </ul>
               <div className="flex flex-wrap justify-center gap-8 my-4">
-                <img src="/Section/2.5.4.png" alt="Bulk Transport 1" className="max-w-[220px] max-h-[250px]" />
-                <img src="/Section/2.5.3.png" alt="Bulk Transport 2" className="max-w-[380px] max-h-[260px]" />
+                <Image src={require("../public/Section/2.5.4.png")} alt="Bulk Transport 1" className="max-w-[220px] max-h-[250px]" />
+                <Image src={require("../public/Section/2.5.3.png")} alt="Bulk Transport 2" className="max-w-[380px] max-h-[260px]" />
               </div>
             </div>
           </div>
@@ -698,7 +700,7 @@ export function SectionNotes({children}: {children: string}) {
                 <li>The process by which organisms regulate water and solute concentrations to maintain homeostasis</li>
               </ul>
               <div className="flex justify-center my-4">
-                <img src="/Section/2.6.1.png" alt="Semipermeable membrane osmosis" className="max-w-[544px] max-h-[308px]" />
+                <Image src={require("../public/Section/2.6.1.png")} alt="Semipermeable membrane osmosis" className="max-w-[544px] max-h-[308px]" />
               </div>
               <div className="pl-8 mb-4">
                 <span className="font-bold">Note:</span> the semipermeable membrane allows only water to pass through; not solute particles
@@ -768,7 +770,7 @@ export function SectionNotes({children}: {children: string}) {
                 </li>
               </ul>
               <div className="flex justify-center my-4">
-                <img src="/Section/2.6.2.png" alt="Tonicity diagram" className="max-w-[624px] max-h-[293px]" />
+                <Image src={require("../public/Section/2.6.2.png")} alt="Tonicity diagram" className="max-w-[624px] max-h-[293px]" />
               </div>
               <ol className="list-decimal pl-8 mb-2">
                 <li>The solution is hypotonic (has more solute than the cell) so water flows into the cell</li>
@@ -807,7 +809,7 @@ export function SectionNotes({children}: {children: string}) {
               <li>
                 Mitochondria and chloroplasts are autonomous organelles that grow and reproduce independently within the cell
                 <div className="flex justify-center my-4">
-                  <img src="/Section/2.7.1.jpg" alt="Endosymbiotic Theory Diagram" className="max-w-[600px] max-h-[220px]" />
+                  <Image src={require("../public/Section/2.7.1.jpg")} alt="Endosymbiotic Theory Diagram" className="max-w-[600px] max-h-[220px]" />
                 </div>
               </li>
             </ul>
@@ -850,7 +852,7 @@ export function SectionNotes({children}: {children: string}) {
               </ul>
             </ul>
             <div className="flex justify-center my-6">
-              <img src="/Section/4.1.1.png" alt="Cell Communication Diagram" className="max-w-[500px] max-h-[310px] bg-white" />
+              <Image src={require("../public/Section/4.1.1.png")} alt="Cell Communication Diagram" className="max-w-[500px] max-h-[310px] bg-white" />
             </div>
           </div>
         </div>
@@ -935,7 +937,7 @@ export function SectionNotes({children}: {children: string}) {
               </li>
             </ol>
             <div className="flex justify-center my-6">
-              <img src="/Section/4.2.1.jpg" alt="Signal Transduction Diagram" className="max-w-[624px] max-h-[437px]" />
+              <Image src={require("../public/Section/4.2.1.jpg")} alt="Signal Transduction Diagram" className="max-w-[624px] max-h-[437px]" />
             </div>
           </div>
         </div>
@@ -970,7 +972,7 @@ export function SectionNotes({children}: {children: string}) {
                   <li>
                     <span className="font-bold">Response</span>: physiological activity which helps return the variable to the set point
                     <div className="flex justify-center my-4">
-                      <img src="/Section/4.3.1.png" alt="Feedback Mechanisms" className="max-w-[366px] max-h-[329px]" />
+                      <Image src={require("../public/Section/4.3.1.png")} alt="Feedback Mechanisms" className="max-w-[366px] max-h-[329px]" />
                     </div>
                   </li>
                 </ul>
@@ -1047,7 +1049,7 @@ export function SectionNotes({children}: {children: string}) {
               </ul>
             </ul>
             <div className="flex justify-center my-4">
-              <img src="/Section/4.4.2.jpg" alt="The Cell Cycle" className="max-w-[300px] max-h-[340px]" />
+              <Image src={require("../public/Section/4.4.2.jpg")} alt="The Cell Cycle" className="max-w-[300px] max-h-[340px]" />
             </div>
             <div className="font-bold text-xl mb-2">Stages of the Cell Cycle</div>
             <ul className="list-disc pl-8 mb-2">
@@ -1129,7 +1131,7 @@ export function SectionNotes({children}: {children: string}) {
               </li>
             </ul>
             <div className="flex justify-center my-4">
-              <img src="/Section/4.4.1.jpg" alt="Cell Cycle" className="max-w-[450px] max-h-[140px]" />
+              <Image src={require("../public/Section/4.4.1.jpg")} alt="Cell Cycle" className="max-w-[450px] max-h-[140px]" />
             </div>
           </div>
         </div>
@@ -1176,7 +1178,7 @@ export function SectionNotes({children}: {children: string}) {
               <li>CDKs then move the cell past the checkpoint into the next stage of the cell cycle</li>
             </ul>
             <div className="flex justify-center my-4">
-              <img src="/Section/4.5.3.jpg" alt="Control of the Cell Cycle" className="max-w-[544px] max-h-[329px]" />
+              <Image src={require("../public/Section/4.5.3.jpg")} alt="Control of the Cell Cycle" className="max-w-[544px] max-h-[329px]" />
             </div>
             <ul className="list-disc pl-8 mb-2">
               <li>Internal and external factors regulating the cell cycle</li>
@@ -1219,7 +1221,7 @@ export function SectionNotes({children}: {children: string}) {
               <li>Normal function is to code for proteins that stimulate normal cell growth and division</li>
               <li>When mutated, the oncogene either makes too much of the gene product or makes a version that is somehow “stronger”</li>
               <div className="flex justify-center my-4">
-                <img src="/Section/4.5.2.jpg" alt="What is a RAS Mutation?" className="max-w-[318px] max-h-[213px]" />
+                <Image src={require("../public/Section/4.5.2.jpg")} alt="What is a RAS Mutation?" className="max-w-[318px] max-h-[213px]" />
               </div>
             </ul>
             <ul className="list-disc pl-12 mb-2">
@@ -1256,7 +1258,7 @@ export function SectionNotes({children}: {children: string}) {
               <li>When altered, p53 cannot prevent a cell from passing on through the cell cycle when it has mutations due to DNA damage</li>
             </ul>
             <div className="flex justify-center my-4">
-              <img src="/Section/4.5.1.jpg" alt="Tumor Suppressor Gene" className="max-w-[624px] max-h-[352px]" />
+              <Image src={require("../public/Section/4.5.1.jpg")} alt="Tumor Suppressor Gene" className="max-w-[624px] max-h-[352px]" />
             </div>
           </div>
         </div>
@@ -1324,7 +1326,7 @@ export function SectionNotes({children}: {children: string}) {
               </ul>
             </ul>
             <div className="flex justify-center my-4">
-              <img src="/Section/6.1.2.png" alt="Difference Between DNA and RNA" className="max-w-[320px] max-h-[224px]" />
+              <Image src={require("../public/Section/6.1.2.png")} alt="Difference Between DNA and RNA" className="max-w-[320px] max-h-[224px]" />
             </div>
             <div className="font-bold text-xl mb-2">Discovery of DNA’s Structure</div>
             <ul className="list-disc pl-8 mb-2">
@@ -1371,7 +1373,7 @@ export function SectionNotes({children}: {children: string}) {
                   <li>Outcome: some non-pathogenic bacteria became pathogenic</li>
                   <li>Conclusion: a chemical component of the dead pathogenic bacteria caused a heritable change</li>
                   <div className="flex justify-center my-4">
-                    <img src="/Section/6.1.1.png" alt="Tiny Transformations: Harnessing Bacterial Behavior to Cure Disease" className="max-w-[366px] max-h-[206px]" />
+                    <Image src={require("../public/Section/6.1.1.png")} alt="Tiny Transformations: Harnessing Bacterial Behavior to Cure Disease" className="max-w-[366px] max-h-[206px]" />
                   </div>
                   <li><span className="font-bold">Transformation</span>: a change in the genes / physical traits of an organism due to its cells taking up external DNA</li>
                 </ul>
@@ -1388,7 +1390,7 @@ export function SectionNotes({children}: {children: string}) {
               </li>
             </ul>
             <div className="flex justify-center my-4">
-              <img src="/Section/6.1.3.png" alt="Hershey Chase Experiment" className="max-w-[624px] max-h-[156px]" />
+              <Image src={require("../public/Section/6.1.3.png")} alt="Hershey Chase Experiment" className="max-w-[624px] max-h-[156px]" />
             </div>
           </div>
         </div>
@@ -1399,8 +1401,8 @@ export function SectionNotes({children}: {children: string}) {
           <div className="pb-[20px]">
             <div className="font-bold text-2xl mb-4">Semiconservative model</div>
             <div className="flex justify-center my-4">
-              <img
-                src="/Section/6.2.1.png"
+              <Image
+                src={require("../public/Section/6.2.1.png")}
                 alt="Mode of DNA replication: Meselson-Stahl experiment"
                 className="max-w-[290px] max-h-[170px]"
               />
@@ -1444,8 +1446,8 @@ export function SectionNotes({children}: {children: string}) {
               <li>
                 Results in a replication fork
                 <div className="flex justify-center my-4">
-                  <img
-                    src="/Section/6.2.3.png"
+                  <Image
+                    src={require("../public/Section/6.2.3.png")}
                     alt="Difference Between Eukaryotic and Prokaryotic DNA replication"
                     className="max-w-[320px] max-h-[180px]"
                   />
@@ -1489,8 +1491,8 @@ export function SectionNotes({children}: {children: string}) {
             </ul>
             <div className="font-bold text-xl mb-2 mt-6">Leading and Lagging Strands</div>
             <div className="flex justify-center my-4">
-              <img
-                src="/Section/6.2.2.jpg"
+              <Image
+                src={require("../public/Section/6.2.2.jpg")}
                 alt="Dna Replication"
                 className="max-w-[420px] max-h-[280px]"
               />
@@ -1537,7 +1539,7 @@ export function SectionNotes({children}: {children: string}) {
               <li>Adds nucleotides to the 3’ end of RNA</li>
             </ul>
             <div className="flex justify-center my-4">
-              <img src="/Section/6.3.1.png" alt="Transcription diagram" className="max-w-[624px] max-h-[248px]" />
+              <Image src={require("../public/Section/6.3.1.png")} alt="Transcription diagram" className="max-w-[624px] max-h-[248px]" />
             </div>
             <ol className="list-decimal pl-8 mb-2" start={3}>
               <li className="mb-2 font-bold">Termination</li>
@@ -1591,7 +1593,7 @@ export function SectionNotes({children}: {children: string}) {
               </li>
             </ul>
             <div className="flex justify-center my-4">
-              <img src="/Section/6.3.2.png" alt="RNA Modification and Splicing" className="max-w-[624px] max-h-[350px]" />
+              <Image src={require("../public/Section/6.3.2.png")} alt="RNA Modification and Splicing" className="max-w-[624px] max-h-[350px]" />
             </div>
             <div className="font-bold text-xl mb-2 mt-8">Location</div>
             <ul className="list-disc pl-8 mb-2">
@@ -1730,7 +1732,7 @@ export function SectionNotes({children}: {children: string}) {
               </li>
             </ul>
             <div className="flex justify-center my-4">
-              <img src="/Section/6.5-6.2.png" alt="The trp operon" className="max-w-[574px] max-h-[197px] bg-white" />
+              <Image src={require("../public/Section/6.5-6.2.png")} alt="The trp operon" className="max-w-[574px] max-h-[197px] bg-white" />
             </div>
             <div className="mt-2 mb-2">
               The presence of tryptophan acts as a corepressor, enabling the red protein to bind to the operator, preventing the binding of RNA polymerase and therefore turning the gene off
@@ -1759,7 +1761,7 @@ export function SectionNotes({children}: {children: string}) {
               </li>
             </ul>
             <div className="flex justify-center my-4">
-              <img src="/Section/6.5-6.1.jpg" alt="Gene Regulation: Operon Theory" className="max-w-[614px] max-h-[471px]" />
+              <Image src={require("../public/Section/6.5-6.1.jpg")} alt="Gene Regulation: Operon Theory" className="max-w-[614px] max-h-[471px]" />
             </div>
             <ul className="list-disc pl-8 mb-2">
               <li>Positive Control of Operons
@@ -1785,7 +1787,7 @@ export function SectionNotes({children}: {children: string}) {
               </li>
             </ul>
             <div className="flex justify-center my-4">
-              <img src="/Section/6.5-6.3.png" alt="lac operon positive control" className="max-w-[442px] max-h-[283px]" />
+              <Image src={require("../public/Section/6.5-6.3.png")} alt="lac operon positive control" className="max-w-[442px] max-h-[283px]" />
             </div>
             <div className="font-bold text-xl mb-2 mt-6">Differential Gene Expression</div>
             <ul className="list-disc pl-8 mb-2">
@@ -1848,7 +1850,7 @@ export function SectionNotes({children}: {children: string}) {
                   <li>
                     <span className="font-bold">Missense</span> - a nucleotide-pair substitution that results in a codon that codes for a different amino acid
                     <div className="flex justify-center my-4">
-                      <img src="/Section/6.7.1.png" alt="Point mutations - Labster" className="max-w-[336px] max-h-[278px]" />
+                      <Image src={require("../public/Section/6.7.1.png")} alt="Point mutations - Labster" className="max-w-[336px] max-h-[278px]" />
                     </div>
                     <ul className="list-disc pl-8 mb-2">
                       <li>Result on phenotype / protein - may have little effect on the protein but does not change the phenotype</li>
@@ -1877,7 +1879,7 @@ export function SectionNotes({children}: {children: string}) {
               </li>
             </ul>
             <div className="flex justify-center my-4">
-              <img src="/Section/6.7.2.png" alt="What are different types of mutations?" className="max-w-[409px] max-h-[278px] bg-white" />
+              <Image src={require("../public/Section/6.7.2.png")} alt="What are different types of mutations?" className="max-w-[409px] max-h-[278px] bg-white" />
             </div>
             <div className="font-bold text-xl mt-6 mb-2">Origin of Mutations</div>
             <ul className="list-disc pl-8 mb-2">
@@ -1929,7 +1931,7 @@ export function SectionNotes({children}: {children: string}) {
               <li>
                 Restriction Enzymes
                 <div className="flex justify-center my-4">
-                  <img src="/Section/6.8.1.png" alt="Overview: DNA cloning (article) | Khan Academy" className="max-w-[262px] max-h-[175px] bg-white" />
+                  <Image src={require("../public/Section/6.8.1.png")} alt="Overview: DNA cloning (article) | Khan Academy" className="max-w-[262px] max-h-[175px] bg-white" />
                 </div>
               </li>
             </ul>
@@ -1978,7 +1980,7 @@ export function SectionNotes({children}: {children: string}) {
               <li>
                 Sample is placed into a well at one end of a slab of agarose gel
                 <div className="flex justify-center my-4">
-                  <img src="/Section/6.8.2.png" alt="What is gel electrophoresis?" className="max-w-[269px] max-h-[220px] bg-white" />
+                  <Image src={require("../public/Section/6.8.2.png")} alt="What is gel electrophoresis?" className="max-w-[269px] max-h-[220px] bg-white" />
                 </div>
               </li>
               <li>An electrical current is applied to the gel</li>
@@ -2006,7 +2008,7 @@ export function SectionNotes({children}: {children: string}) {
               <li>
                 Amplifies specific genes, makes billions of copies within hours
                 <div className="flex justify-center my-4">
-                  <img src="/Section/6.8.3.png" alt="Polymerase chain reaction (PCR) (article) | Khan Academy" className="max-w-[369px] max-h-[169px] bg-white" />
+                  <Image src={require("../public/Section/6.8.3.png")} alt="Polymerase chain reaction (PCR) (article) | Khan Academy" className="max-w-[369px] max-h-[169px] bg-white" />
                 </div>
               </li>
               <li>Process</li>
