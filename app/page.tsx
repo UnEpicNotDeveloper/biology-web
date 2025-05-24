@@ -1798,26 +1798,28 @@ export default function Page() {
               style={{ width: imageWidth, height: imageHeight }}
             />
             {hotspots.map((spot) => (
-              <a href="/biology-web/note" key={spot.id}>
-                <button
-                  onClick={() => setTerm(spot.id)}
-                  style={{
-                    position: "absolute",
-                    left: `${spot.x * imageWidth}px`,
-                    top: `${spot.y * imageHeight}px`,
-                    transform: "translate(-50%, -50%)",
-                    width: 12,
-                    height: 12,
-                    /* for seeing the dots
-                    borderRadius: "50%",
-                    backgroundColor: "red",
-                    border: "none",
-                    cursor: "pointer",
-                    */
-                  }}
-                  title={spot.id}
-                />
-              </a>
+              <div>
+                <Link href="/note" key={spot.id}>
+                  <button
+                    onClick={() => setTerm(spot.id)}
+                    style={{
+                      position: "absolute",
+                      left: `${spot.x * imageWidth}px`,
+                      top: `${spot.y * imageHeight}px`,
+                      transform: "translate(-50%, -50%)",
+                      width: 12,
+                      height: 12,
+                      /* for seeing the dots
+                      borderRadius: "50%",
+                      backgroundColor: "red",
+                      border: "none",
+                      cursor: "pointer",
+                      */
+                    }}
+                    title={spot.id}
+                  />
+                </Link>
+              </div>
             ))}
           </div>
         </TransformComponent>
